@@ -8,3 +8,15 @@ nav a {
   text-decoration: none; }
 nav .logo {
   display: inline; }
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%; }
+
+.post-title {
+  font-family: georgia; }
+
+.post-image {
+  width: 83.33333%;
+  border: 1px solid; }
