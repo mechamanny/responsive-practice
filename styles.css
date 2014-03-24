@@ -1,0 +1,10 @@
+nav ul {
+  list-style-type: none;
+  display: inline; }
+nav li {
+  display: inline;
+  padding-right: 10px; }
+nav a {
+  text-decoration: none; }
+nav .logo {
+  display: inline; }
