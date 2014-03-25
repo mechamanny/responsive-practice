@@ -1,13 +1,24 @@
-nav ul {
-  list-style-type: none;
-  display: inline; }
-nav li {
-  display: inline;
-  padding-right: 10px; }
 nav a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 35%;
+  left: 3%; }
+nav a:hover {
+  text-decoration: underline; }
 nav .logo {
-  display: inline; }
+  display: inline;
+  height: 100%; }
+
+nav {
+  background-color: #ff2052;
+  height: 50px; }
+
+body {
+  background-color: #ffeb7f;
+  margin: 0; }
 
 .center {
   margin-right: auto;
@@ -18,5 +29,15 @@ nav .logo {
   font-family: georgia; }
 
 .post-image {
-  width: 83.33333%;
+  width: 100%;
   border: 1px solid; }
+
+.post-content {
+  font-size: 1.1em; }
+
+.container {
+  margin-top: 50px; }
+
+@media (max-width: 600px) {
+  .center {
+    width: 100%; } }

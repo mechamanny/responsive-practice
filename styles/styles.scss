@@ -1,18 +1,34 @@
+$cool-color: #ff2052;
+$background-color: #ffeb7f;
+
+
 nav {
-	ul {
-		list-style-type: none;
-		display: inline;
-	}
-	li {
-		display: inline;
-		padding-right: 10px;
-	}
 	a {
 		text-decoration: none;
+		color: white;
+		padding-left: 10px;
+		margin: 0 auto;
+		position:relative;
+		bottom: 35%;
+		left: 3%;
+	}
+	a:hover{
+		text-decoration: underline;
 	}
 	.logo {
 		display: inline;
+		height: 100%;
 	}
+}
+
+nav {
+	background-color: $cool-color;
+	height:50px;
+}
+
+body {
+	background-color: $background-color;
+	margin: 0;
 }
 
 
@@ -27,8 +43,20 @@ nav {
 }
 
 .post-image {
-	width: 800px / 960px * 100%;
+	width: 100%;
 	border: 1px solid;
+}
+
+.post-content {
+	font-size: 1.1em;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+	.center { width:100%;}
 }
 
 
